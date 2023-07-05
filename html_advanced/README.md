@@ -1,1 +1,2 @@
 An advanced HTML task with the purpose of replicating the structure (Skeleton) of a figma web page.
+![Figma-Skeleton](https://github.com/icareus1/alx_html_css/assets/79919003/cdcbd671-fae2-444d-83c5-c28726cd83e7)
