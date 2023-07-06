@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    background-color: rgba(202, 229, 252, 0.2);
+    text-align: justify;
+}
+
+article{
+    flex: 2;
+    border: 5px solid #0e0e44;
+    margin: 2px 2px 2px 2px;
+}
+img{
+    width: 20em;
+    height: 10em;
+}
+
+#trefle{
+    width: 100px;
+    height: 50px;
+}
+
+aside{
+    flex: 1;
+    border: 5px solid #0e0e44;
+    margin: 2px 2px 2px 2px;
+}
+
+.overflow{
+    overflow-y: auto
+}
+
+table, th, td{
+    border: .1em solid black;
+    padding: .2rem;
+    text-align: center;
+}
+
+footer{
+    border-top: 1px solid rgba(196, 194, 194, 0.64);
+}
+
+#msg{
+    padding: .7em;
+}
+
+p::before{
+    content: "\1F340";
+}
