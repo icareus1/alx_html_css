@@ -17,8 +17,7 @@ main{
 
 article{
     flex: 2;
-    border: 5px solid #0e0e44;
-    margin: 2px 2px 2px 2px;
+
 }
 img{
     width: 20em;
@@ -27,12 +26,12 @@ img{
 
 aside{
     flex: 1;
-    border: 5px solid #0e0e44;
-    margin: 2px 2px 2px 2px;
 }
 
 .overflow{
-    overflow-y: auto
+    overflow-y: auto;
+    border: 5px solid #0e0e44;
+    margin: 2px 2px 2px 2px;
 }
 
 table, th, td{
